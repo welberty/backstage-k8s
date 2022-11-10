@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backstage
-          image: backstage-k8s-0.0.3
+          image: backstage-k8s-0.0.4
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
