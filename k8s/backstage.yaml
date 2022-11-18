@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backstage
-          image: backstage-novo-v0.0.2
+          image: backstage-novo-v0.0.3
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
